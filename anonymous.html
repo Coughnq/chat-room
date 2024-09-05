@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intelliquinte</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="/image1.svg">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>Intelliquinte</h1>
+            <div id="user-controls">
+                <input type="text" id="change-name" placeholder="Change your name">
+                <button id="theme-toggle">🌙</button>
+            </div>
+        </header>
+        <main>
+            <div id="messages-container">
+                <div id="messages"></div>
+            </div>
+            <form id="message-form">
+                <input type="text" id="message-input" placeholder="Type a message..." autocomplete="off">
+                <button type="submit">Send</button>
+            </form>
+        </main>
+        <footer>
+            <p>&copy; 2024 Intelliquinte. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="anonymous.js"></script>
+</body>
+</html>
